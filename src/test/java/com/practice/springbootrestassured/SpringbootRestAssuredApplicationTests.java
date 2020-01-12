@@ -45,7 +45,7 @@ public class SpringbootRestAssuredApplicationTests {
 	public void getUserAuthentication(){
 		RestAssured.baseURI = "http://localhost:8080/rest/db/secured/display";
 		PreemptiveBasicAuthScheme authScheme = new PreemptiveBasicAuthScheme();
-		authScheme.setUserName("Praveen");
+		authScheme.setUserName("Nicole");
 		authScheme.setPassword("admin");
 		RestAssured.authentication = authScheme;
 
