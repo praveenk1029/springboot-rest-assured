@@ -7,8 +7,6 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.json.simple.JSONObject;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.HttpStatus;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -16,7 +14,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 
 
-public class SpringbootRestAssuredApplicationTests {
+public class SpringbootRestAssuredAutomationFrameworkTests {
 
 	@Test
 	public void getEmployeeByEmpId() {
