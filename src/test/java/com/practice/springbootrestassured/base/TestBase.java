@@ -16,7 +16,7 @@ public class TestBase {
 
     @BeforeClass
     public void setUp(){
-        logger = Logger.getLogger("EmployeesRestAPI");
+        logger = Logger.getLogger("Employees Rest API");
         PropertyConfigurator.configure("log4j.properties");
         logger.setLevel(Level.DEBUG);
     }
